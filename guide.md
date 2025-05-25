@@ -23,9 +23,9 @@ hero:
   tagline: 使用 VitePress 打造个人前端导航  //第三行小注内容
   image:
     src: /logo.png //页面大图地址（图像最好切圆后使用）
-    alt: 茂茂物语
+    alt: 星光StarShine
   actions:  //跳转按钮，可按需增减
-    - text: 茂茂物语
+    - text: 星光StarShine
       link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
@@ -51,7 +51,7 @@ features:
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '个人主页', link: 'https://fe-mm.com' }, //切行无影响
   {
-    text: '茂茂物语', //显示文本
+    text: '星光StarShine', //显示文本
     link: 'https://notes.fe-mm.com', //链接
   },
 ]
