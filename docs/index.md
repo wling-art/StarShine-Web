@@ -3,53 +3,53 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 星光StarShine
-  text: MC服务器官网
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: 星创StarShineMC
+  text: StarShineMC 服务器官网
+  tagline: 基于 VitePress 的 Minecraft 服务器官网模板
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 星创StarShineMC
   actions:
-    - text: 茂茂物语
-      link: https://notes.fe-mm.com
-    - text: 前端导航
-      link: /nav/
+    - text: 服务器介绍
+      link: /about
+    - text: 加入我们
+      link: /join
       theme: alt
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
-    - text: 测试页
-      link: /test
+    - text: 玩家社区
+      link: /community
+    - text: 资源下载
+      link: /downloads
       theme: alt
 features:
-  - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
-    link: https://notes.fe-mm.com/fe/javascript/types
-    linkText: 前端常用知识
-  - icon: 📘
-    title: 源码阅读
-    details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: https://notes.fe-mm.com/analysis/utils/only-allow
-    linkText: 源码阅读
-  - icon: 💡
-    title: Workflow
-    details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
-    link: https://notes.fe-mm.com/workflow/utils/library
-    linkText: 常用工具库
-  - icon: 🧰
-    title: 提效工具
-    details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
-    link: https://notes.fe-mm.com/efficiency/online-tools
-    linkText: 提效工具
-  - icon: 🐞
-    title: 踩坑记录
-    details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
-    link: https://notes.fe-mm.com/pit/npm
-    linkText: 踩坑记录
-  - icon: 💯
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
-    link: https://notes.fe-mm.com/mao
+  - icon: 🏰
+    title: 服务器特色
+    details: 介绍服务器玩法、特色内容与独特体验，欢迎加入我们的 Minecraft 世界！
+    link: /about
+    linkText: 了解更多
+  - icon: 👥
+    title: 玩家社区
+    details: 参与社区讨论、活动与分享，结识更多志同道合的玩家。
+    link: /community
+    linkText: 进入社区
+  - icon: 🛠️
+    title: 资源下载
+    details: 提供客户端、补丁、材质包等相关资源下载，助你畅玩服务器。
+    link: /downloads
+    linkText: 资源中心
+  - icon: 📢
+    title: 最新公告
+    details: 获取服务器最新动态、活动与维护公告，第一时间掌握重要信息。
+    link: /news
+    linkText: 查看公告
+  - icon: 💬
+    title: 联系我们
+    details: 有问题或建议？欢迎通过社区或联系方式与我们交流。
+    link: /contact
+    linkText: 联系方式
+  - icon: ⭐
+    title: 星创StarShineMC
+    details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界</small>'
+    link: /about
 ---
 
 <style>
