@@ -3,9 +3,9 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 星创StarShineMC
-  text: StarShineMC 服务器官网
-  tagline: 基于 VitePress 的 Minecraft 服务器官网模板
+  name: 星创StarShine
+  text: StarShineMC服务器官网
+  tagline: 一个有趣、自由、开发、友好的服务器
   image:
     src: /logo.png
     alt: 星创StarShineMC
