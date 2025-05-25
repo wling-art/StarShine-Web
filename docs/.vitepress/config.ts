@@ -41,8 +41,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
     footer: {
-      message: '本站由StarShine工作室二次开发，经vitepress模板修改而来',
-      message: '致谢：<a href="https://github.com/maomao1996/vitepress-nav-template" target="_blank" rel="noopener">原源码</a>',
+      message: '本站由StarShine工作室二次开发，经vitepress模板修改而来<br>致谢：<a href="https://github.com/maomao1996/vitepress-nav-template" target="_blank" rel="noopener">原源码</a>',
       copyright: 'Copyright © 2024-present StarShineMC',
     },
 
