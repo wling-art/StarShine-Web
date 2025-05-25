@@ -10,16 +10,10 @@ hero:
     src: /logo.png
     alt: 星光StarShineMC
   actions:
-    - text: 服务器介绍
-      link: /about
     - text: 加入我们
-      link: /join
-      theme: alt
-    - text: 玩家社区
-      link: /community
+      link: https://qm.qq.com/q/yCemxvimCQ
     - text: 资源下载
-      link: /downloads
-      theme: alt
+      link: https://pan.1fu.top/
 features:
   - icon: 🏰
     title: 服务器特色
