@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 星创StarShine
+  name: 星光StarShine
   text: StarShineMC服务器官网
   tagline: 一个有趣、自由、开发、友好的服务器
   image:
     src: /logo.png
-    alt: 星创StarShineMC
+    alt: 星光StarShineMC
   actions:
     - text: 服务器介绍
       link: /about
@@ -47,7 +47,7 @@ features:
     link: /contact
     linkText: 联系方式
   - icon: ⭐
-    title: 星创StarShineMC
+    title: 星光StarShineMC
     details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界</small>'
     link: /about
 ---
