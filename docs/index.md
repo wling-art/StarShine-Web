@@ -3,31 +3,36 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 星光StarShine
-  text: StarShineMC服务器官网
-  tagline: 一个有趣、自由、开放、友好的服务器
+  name: 星创StarShineMC
+  text: StarShineMC 服务器官网
+  tagline: 加入属于你的 Minecraft 世界，体验创造与冒险的乐趣！
   image:
     src: /logo.png
-    alt: 星光StarShineMC
+    alt: 星创StarShineMC
   actions:
-    - text: 加入我们
+    - text: 立即加入服务器
       link: https://qm.qq.com/q/yCemxvimCQ
-    - text: 资源下载
+    - text: 资源下载中心
       link: https://pan.1fu.top/
 features:
   - icon: 🏰
-    title: 服务器特色
-    details: 介绍服务器玩法、特色内容与独特体验，欢迎加入我们的 Minecraft 世界！
+    title: 服务器介绍
+    details: 星创StarShineMC 致力于打造自由、开放、友好的 Minecraft 社区，欢迎每一位玩家加入！
     link: /about
-    linkText: 了解更多
+    linkText: 了解详情
+  - icon: ⚔️
+    title: 玩法特色
+    details: 多样化玩法与独特内容，生存、创造、活动、任务应有尽有，等你探索！
+    link: /features
+    linkText: 玩法一览
   - icon: 👥
     title: 玩家社区
-    details: 参与社区讨论、活动与分享，结识更多志同道合的玩家。
+    details: 参与社区讨论、活动与分享，结识志同道合的伙伴，畅聊游戏与生活。
     link: /community
-    linkText: 进入社区
+    linkText: 加入社区
   - icon: 🛠️
     title: 资源下载
-    details: 提供客户端、补丁、材质包等相关资源下载，助你畅玩服务器。
+    details: 提供客户端、补丁、材质包等相关资源，助你畅玩服务器。
     link: /downloads
     linkText: 资源中心
   - icon: 📢
@@ -36,15 +41,119 @@ features:
     link: /news
     linkText: 查看公告
   - icon: 💬
-    title: 联系我们
+    title: 联系与反馈
     details: 有问题或建议？欢迎通过社区或联系方式与我们交流。
     link: /contact
-    linkText: 联系方式
+    linkText: 联系我们
   - icon: ⭐
-    title: 星光StarShineMC
-    details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界</small>'
+    title: 加入星创StarShineMC
+    details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
     link: /about
+
 ---
+
+<!-- 贡献者区域 -->
+
+<div class="contributors unified-style">
+  <div class="contributor-group">
+    <h3><span class="contributor-icon">💰</span> 赞助者</h3>
+    <ul>
+      <li><div class="avatar"></div>小明</li>
+      <li><div class="avatar"></div>小红</li>
+      <li><div class="avatar"></div>匿名玩家A</li>
+    </ul>
+  </div>
+  <div class="contributor-group">
+    <h3><span class="contributor-icon">🛠️</span> 技术支持</h3>
+    <ul>
+      <li><div class="avatar"></div>技术员Tom</li>
+      <li><div class="avatar"></div>开发者Jerry</li>
+    </ul>
+  </div>
+  <div class="contributor-group">
+    <h3><span class="contributor-icon">🏗️</span> 建筑师</h3>
+    <ul>
+      <li><div class="avatar"></div>建筑师Alice</li>
+      <li><div class="avatar"></div>建筑团队StarBuild</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.contributors.unified-style {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 2.5em 0 1.5em 0;
+  justify-content: center;
+  background: linear-gradient(135deg, #f3f4f6 80%, #e0e7ef 100%);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px 0 #0001;
+  padding: 2em 1em 1.5em 1em;
+}
+.contributor-group {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.2em 2.2em 1.5em 2.2em;
+  min-width: 210px;
+  box-shadow: 0 4px 18px 0 #0002;
+  transition: box-shadow 0.2s;
+  margin-bottom: 1em;
+  border: 1.5px solid #e3e8f0;
+}
+.contributor-group:hover {
+  box-shadow: 0 8px 32px 0 #0003;
+}
+.contributor-group h3 {
+  margin-top: 0;
+  font-size: 1.18em;
+  color: #2c3e50;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  border-bottom: 1.5px solid #e0e0e0;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.7em;
+}
+.contributor-icon {
+  font-size: 1.3em;
+}
+.contributor-group ul {
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.contributor-group li {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  color: #444;
+  padding-left: 0.2em;
+}
+.avatar {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e0e7ff 60%, #c7d2fe 100%);
+  display: inline-block;
+  margin-right: 0.1em;
+  box-shadow: 0 1px 4px #0001;
+}
+@media (max-width: 900px) {
+  .contributors.unified-style {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.2em 0.5em 1em 0.5em;
+  }
+  .contributor-group {
+    min-width: unset;
+    width: 100%;
+  }
+}
+</style>
 
 <style>
 /*爱的魔力转圈圈*/
